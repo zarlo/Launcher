@@ -47,7 +47,7 @@ public class AboutDialog extends JDialog {
         getRootPane().registerKeyboardAction(ActionListeners.dispose(this), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
         okButton.addActionListener(ActionListeners.dispose(this));
-        sourceCodeButton.addActionListener(ActionListeners.openURL(this, "https://github.com/SKCraft/Launcher"));
+        sourceCodeButton.addActionListener(ActionListeners.openURL(this, "https://github.com/MasterGeneral156/Launcher"));
     }
 
     public static void showAboutDialog(Window parent) {
